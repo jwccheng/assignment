@@ -1,0 +1,74 @@
+.styled-select {
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+   font-size: 20px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 25px;
+   height: 29px;
+   padding: 5px; 
+   width: 268px;
+}
+
+
+
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.pink    { background-color: white; }
+.pink select    { color: #000; }
+
+.styled-selector {
+   height: 100px;
+   overflow: hidden;
+   width: 240px;
+   font-size: 50px;
+   font-family:Kinkie;
+   color:black;
+   border:2px solid black;
+}
+.styled-selector{ background-color: white; }
+.styled-selector select    { color: #000; }
+.styled-selector {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+border-radius: 5px;}
+
+
+.styled-selectorr {
+   height: 29px;
+   overflow: hidden;
+   width: 350px;
+   font-size: 20px;
+   row:
+}
+.styled-selectorr{ background-color: white; }
+.styled-selectorr select    { color: #000; }
+.styled-selectorr {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+border-radius: 5px;}
+
+
+
+.comment{
+   height: 250px;
+   overflow: hidden;
+   width: 500px;
+   font-size: 20px;
+   row:
+}
+
+.comment{ background-color: white; }
+.comment select    { color: #000; }
+.comment {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+border-radius: 5px;}

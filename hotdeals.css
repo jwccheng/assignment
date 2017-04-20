@@ -1,0 +1,57 @@
+.one{margin:0 auto;width:1000px; text-align:center;}
+
+.two{position:relative; right:10px;float:left; width:1000px; color:black; font-size:45px;background-image: url("ooo.png");background-size: 100%; background-repeat: no-repeat; text-align:center; height:55.8%;border:10px solid black}
+
+.three{text-align:center;background-image: url("ooo.png");background-size: 200%; background-repeat: no-repeat;}
+ 
+.four{width:903px; background-image: url("title3.jpg");background-size: 100%; background-repeat: no-repeat; padding:48.5px; height:7%}
+
+.five{position:relative;right:10px;float:left; width:930px; color:black; font-size:20px;background-image: url("ooo.png");background-size: 100%; background-repeat: no-repeat; text-align:left; height:55.8%;padding:35px;border: 10px solid black;;}
+
+.six{float:right; text-align:left; position:relative; right:15px; color:black; text-decoration:none;}
+
+.img4{float:right;}
+
+.nero{border:10px solid black}
+
+.move{position:relative;top:-450px; left:-150px}
+
+.size{width:100%}
+
+.background{background-image: url("back22.jpg"); background-size: 100%; background-repeat: no-repeat;background-attachment: fixed; 
+font-family: "Times New Roman", Times, serif;}
+
+.text{float:left; width:975px; color:black; font-size:40px;background-image: url("oooo.jpg");background-size: 100%; background-repeat: no-repeat; 
+text-align:center;padding-left:25px; max-height:600px}
+	
+.button{float:right; position:relative; right:25px;}
+
+.body{margin:0 auto;width:1000px; text-align:center;border:10px solid black}
+
+
+@font-face{
+	font-family:Kinkie;
+	src:url("KINKIE__.TTF");
+}
+
+@keyframes slidy {
+
+0% { left: 0%; }
+16% { left: 0%; }
+32% { left: -100%; }
+48% { left: -100%; }
+64% { left: -200%; }
+80% { left: -200%; }
+}
+
+.slider { overflow: hidden; border:10px solid white;border-top:10px solid black;border-bottom:10px solid black}
+.slider figure img { width: 10%; float: left; }
+.slider figure { 
+  position: relative;
+  width: 333.4%;
+  margin: 0;
+  left: 0;
+  text-align: center;
+  font-size: 0;
+  animation: 25s slidy infinite; 
+}
